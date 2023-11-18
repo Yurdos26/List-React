@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "Молоко"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "Кофе"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "Печенье"
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "item": "Хлеб"
+    },
+    {
+      "id": 5,
+      "checked": false,
+      "item": "Позвонить"
+    },
+    {
+      "id": 6,
+      "checked": false,
+      "item": "Забрать"
+    },
+    {
+      "id": 7,
+      "checked": false,
+      "item": "Встретить"
+    },
+    {
+      "id": 8,
+      "checked": false,
+      "item": "Навестить"
+    },
+    {
+      "id": 9,
+      "checked": false,
+      "item": "Поздравить"
+    },
+    {
+      "id": 10,
+      "checked": false,
+      "item": "Я помню чудное мгновенье: Передо мной явилась ты, Как мимолетное виденье, Как гений чистой красоты. В томленьях грусти безнадежной, В тревогах шумной суеты, Звучал мне долго голос нежный И снились милые черты. Шли годы. Бурь порыв мятежный Рассеял прежние мечты, И я забыл твой голос нежный, Твои небесные черты. В глуши, во мраке заточенья Тянулись тихо дни мои Без божества, без вдохновенья, Без слез, без жизни, без любви."
+    },
+    {
+      "id": 11,
+      "checked": false,
+      "item": "https://www.citilink.ru/product/noutbuk-msi-raider-ge76-12ugs-439ru-i7-12800hx-32gb-ssd2tb-rtx3080ti-1-1833340/?rcmx_source=rcmx&rcmx_medium=widget&rcmx_campaign=laptops&rcmx_content=final&rcmx_session=92a59416-31c8-4be3-92c3-1e762a4927c3"
+    },
+    {
+      "id": 12,
+      "checked": false,
+      "item": "Колбаса"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1; /*Флекса нет Footer будет внизу страницы*/
+}
+
+.header {
+  display: flex;
+  padding: 10px 10px;
+  background: aquamarine;
+}
+
+.container {
+  display: flex; /* выравнивание по горизонтальной оси */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logoreact {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  height: 40px; /* отступ сверху */
+  color: red;
+  font-size: 30px; /* размер логотипа */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logoreact {
+    animation: App-logo-spin infinite 10s linear; /*скорость вращения*/
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg); /* -360 будет крутиться против часовой стрелки*/
+  }
+}
+
+.container p {
+  display: flex;
+  position: relative;
+  align-items: center; /* текст по вертикальному центру */
+  font-size: 30px;
+  font-weight: 700;
+  color: blue;
+}
+
+.sireactivex {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  height: 40px; /* отступ сверху */
+  color: red;
+  font-size: 30px; /* размер логотипа */
+}
+
+.footer {
+  text-align: center;
+  padding: 5px 10px;
+  background: aqua;
+}
+
+.footer p {
+  display: 1;
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 800;
+  color: blue;
+}
+
+.sireactrouter {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  margin: 10px;
+  color: red;
+  font-size: 50px; /* размер логотипа */
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 15px;
+  margin-bottom: 10px;
+  background: #a9a9a9a9;
+}
+
+.item label {
+  flex: 1;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.item input {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  margin-right: 10px; /* расстояние от квадратика до начала слова*/
+}
+
+.item svg {
+  width: 60px;
+  height: 60px;
+  font-size: 35px;
+  cursor: pointer;
+  color: red;
+}
+
+.item svg:focus,/* при наведении мышки кнопка УДАЛИТЬ становится красным цветом*/
+.item svg:hover {
+  color: purple;
+  outline: none;
+}
+
+/* .total-items {
+  display: 1;
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: blue;
+} */
+
+.addForm {
+  width: 100%;
+  display: flex;
+  padding: 5px 0;
+  margin: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.addForm input {
+  flex: 1;
+  max-width: calc(100% - 60px);
+  height: 48px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  outline: none;
+}
+
+.addForm button {
+  height: 48px;
+  border-radius: 5px;
+  width: 48px;
+  background-color: aqua;
+  color: green; /*цвет плюсика внутри кнопки*/
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.addForm button:hover,/* при наведении мышки кнопка меня свой цвет*/
+.addForm button:focus {
+  color: aqua;
+  background-color: green;
+  outline: none;
+}
+
+.serchForm {
+  width: 99%;
+  display: flex;
+  margin: 10px 0 0;
+}
+
+.serchForm input {
+  flex: 1;
+  width: 100%;
+  height: 48px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px; /* отступ слова */
+  outline: none;
+}
+
+/* Стиль на "Error: Нет ответа от сервера" */
+.error {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 150px 0;
+  color: red;
+}
