@@ -70,7 +70,7 @@ https://youtu.be/-pJN9faoa8E?list=PLjghEzbnHcvdmCkAVPGm3nYKNcvEXWxac
 
 https://youtu.be/nq3ZEvMYsl0?list=PLjghEzbnHcvd9tespfcewx11NN_rFKI1i
 
-## Мой сценарий развертывания приложения (пошаговый):
+## Мой сценарий развертывания приложения (пошаговый - пока не работает):
 
 ### 1. Создаем репозиторий на gitHub.
 
@@ -119,3 +119,7 @@ https://youtu.be/nq3ZEvMYsl0?list=PLjghEzbnHcvd9tespfcewx11NN_rFKI1i
 ### `npm run deploy`
 
 ### 7. Опубликовано (Published)
+
+открываем домашнюю страницу по адресу:
+
+### `https://yurdos26.github.io/List-React/`
