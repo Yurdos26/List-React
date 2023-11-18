@@ -92,21 +92,26 @@ https://youtu.be/nq3ZEvMYsl0?list=PLjghEzbnHcvd9tespfcewx11NN_rFKI1i
 
    5.1.
 
-{
-
 - "name": "list-react",
-  "version": "1.1.0",
+
+- "version": "1.1.0",
+
 - "homepage": "https://gitname.github.io/react-gh-pages",
+
 - "private": false,
-  ....
 
-  5.2.
+....
 
-  "scripts": {
+5.2.
 
-* "predeploy": "npm run build",
-* "deploy": "gh-pages -d build",
+"scripts":
+
+- "predeploy": "npm run build",
+
+- "deploy": "gh-pages -d build",
+
   "start": "react-scripts start",
+
   "build": "react-scripts build",
 
 6. Отправляем приложение React в репозиторий GitHub:
