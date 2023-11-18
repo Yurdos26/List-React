@@ -20,7 +20,7 @@
 
 Происходит запуск приложения по адресу:
 
-    [http://localhost:3000](http://localhost:3000) смотреть в браузере.
+[http://localhost:3000](http://localhost:3000) смотреть в браузере.
 
 Старт json сервера по порту 3500 и запись данных в файл по пути data/db.json:
 
@@ -28,7 +28,7 @@
 
 Происходит открытие json файла data/db.json по адресу:
 
-    [http://localhost:3500](http://localhost:3500) смотреть в браузере.
+[http://localhost:3500](http://localhost:3500) смотреть в браузере.
 
 Можно добавлять, удалять длинные записи, но:
 ВНИМАНИЕ! Ссылки на веб сраницы добавлять не рекомендуется, ввиду того,
@@ -72,10 +72,43 @@ https://youtu.be/nq3ZEvMYsl0?list=PLjghEzbnHcvd9tespfcewx11NN_rFKI1i
 
 ## Мой сценарий развертывания приложения (пошаговый):
 
-1.
+1. Создаем репозиторий на gitHub.
 
-2.
+2. Открываем наш репозиторий в VS Code.
 
-3.
+3. Выполняем 3 команды:
 
-4.
+### git remote add origin https://github.com/Yurdos26/List-React.git
+
+### git branch -M main
+
+### git push -u origin main
+
+4. Устанавливаем пакет gh-pages:
+
+### npm install gh-pages --save-dev
+
+5. В файл package.json добавляем следующие строки:
+
+   5.1.
+
+{
+
+- "name": "list-react",
+  "version": "1.1.0",
+- "homepage": "https://gitname.github.io/react-gh-pages",
+- "private": false,
+  ....
+
+  5.2.
+
+  "scripts": {
+
+* "predeploy": "npm run build",
+* "deploy": "gh-pages -d build",
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+
+6. Отправляем приложение React в репозиторий GitHub:
+
+### npm run deploy
