@@ -39,7 +39,7 @@ function App() {
     };
     setTimeout(() => {
       (async () => fetchItems())();
-    }, 2000);
+    }, 1500);
   }, []);
 
   const handleCheck = async (id) => {
