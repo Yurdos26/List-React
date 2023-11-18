@@ -117,3 +117,5 @@ https://youtu.be/nq3ZEvMYsl0?list=PLjghEzbnHcvd9tespfcewx11NN_rFKI1i
 ### 6. Отправляем приложение React в репозиторий GitHub:
 
 ### `npm run deploy`
+
+### 7. Опубликовано (Published)
