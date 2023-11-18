@@ -72,25 +72,25 @@ https://youtu.be/nq3ZEvMYsl0?list=PLjghEzbnHcvd9tespfcewx11NN_rFKI1i
 
 ## Мой сценарий развертывания приложения (пошаговый):
 
-1. Создаем репозиторий на gitHub.
+### 1. Создаем репозиторий на gitHub.
 
-2. Открываем наш репозиторий в VS Code.
+### 2. Открываем наш репозиторий в VS Code.
 
-3. Выполняем 3 команды:
+### 3. Выполняем 3 команды:
 
-### git remote add origin https://github.com/Yurdos26/List-React.git
+### `git remote add origin https://github.com/Yurdos26/List-React.git`
 
-### git branch -M main
+### `git branch -M main`
 
-### git push -u origin main
+### `git push -u origin main`
 
-4. Устанавливаем пакет gh-pages:
+### 4. Устанавливаем пакет gh-pages:
 
-### npm install gh-pages --save-dev
+### `npm install gh-pages --save-dev`
 
-5. В файл package.json добавляем следующие строки:
+### 5. В файл package.json добавляем следующие строки:
 
-   5.1.
+### 5.1.
 
 - "name": "list-react",
 
@@ -102,7 +102,7 @@ https://youtu.be/nq3ZEvMYsl0?list=PLjghEzbnHcvd9tespfcewx11NN_rFKI1i
 
 ....
 
-5.2.
+### 5.2.
 
 "scripts":
 
@@ -114,6 +114,6 @@ https://youtu.be/nq3ZEvMYsl0?list=PLjghEzbnHcvd9tespfcewx11NN_rFKI1i
 
   "build": "react-scripts build",
 
-6. Отправляем приложение React в репозиторий GitHub:
+### 6. Отправляем приложение React в репозиторий GitHub:
 
-### npm run deploy
+### `npm run deploy`
